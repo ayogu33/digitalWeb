@@ -131,28 +131,75 @@
 // console.log(car)
 
 
-let numil= 200 
-let numstr = numil.toString()
-console.log(numstr)
-let decimolnum = 10.2989677750
-let decimal = decimolnum.toFixed(2)
-console.log(Number(decimal) + 30)
+// let numil= 200 
+// let numstr = numil.toString()
+// console.log(numstr)
+// let decimolnum = 10.2989677750
+// let decimal = decimolnum.toFixed(2)
+// console.log(Number(decimal) + 30)
 
-let myarray = ['Camry', 'Blue', 4, 2024, 20000]
-console.log(myarray)
-console.log(myarray[0])
-console.log(myarray[1])
-myarray.push('Toyota')
+// let myarray = ['Camry', 'Blue', 4, 2024, 20000]
+// console.log(myarray)
+// console.log(myarray[0])
+// console.log(myarray[1])
+// myarray.push('Toyota')
 //myarray.unshift(red)
-myarray.push(2020)
-myarray.push(22000)
-console.log(myarray)
-myarray.pop()
-myarray.shift()
-console.log(myarray)
+// myarray.push(2020)
+// myarray.push(22000)
+// console.log(myarray)
+// myarray.pop()
+// myarray.shift()
+// console.log(myarray)
 
-myarray[0] = 'Mercedics'
-myarray[1] = 'blsck'
-myarray[2] = 2029
+// myarray[0] = 'Mercedics'
+// myarray[1] = 'Blsck'
+// myarray[2] = 2029
 
-console.log(myarray)
+// console.log(myarray)
+// console.log(myarray.length)
+// let newarray= myarray.slice(1, 4)
+// console.log(newarray)
+// console.log(myarray.sort())
+
+// function(){
+//     console.log('My name is Peter')
+// }
+
+let numArray = [10, 20, 30, 40, 50]
+//let newarray = [] 
+console.log(numArray)
+
+// numArray.forEach((val, idx, array) => (newarray,push(val * 2)))
+
+// console.log(newarray)
+
+let mapArray = numArray.map( function(val, idx) {return val + 20})
+console.log(mapArray)
+
+let filterArray = numArray.filter(function(val) {return val < 20})
+
+console.log(filterArray)
+
+let num4 = 50
+const num5 = 50
+
+num4 = 60
+//num5 = 70
+let mytime = new Date()
+console.log(mytime)
+console.log(mytime.getMonth())
+let celler = Math.ceil(4.1)
+let floar = Math.floor(4.9)
+let round1 = Math.round(4.5)
+let round2 = Math.round(4.4)
+console.log('celler=>', celler, 'floor=>', floar, 'Round=>', round1, 'Round=>', round2)
+console.log(Math.PI)
+
+console.log(3 ** 2)
+console.log(Math.pow(3,2))
+
+console.log(Math.random() * 11)
+console.log(Math.floor(Math.random() * (11 - 5)) + 5 )
+
+let randomnum = Array(10). fill(0)
+console.log(randomnum)
