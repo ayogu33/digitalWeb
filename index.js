@@ -203,3 +203,5 @@ console.log(Math.floor(Math.random() * (11 - 5)) + 5 )
 
 let randomnum = Array(10). fill(0)
 console.log(randomnum)
+
+randomnum = randomnum.map((val) => Math.floor(Math.random() * (11 - 5) + 5))
