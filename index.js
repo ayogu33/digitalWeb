@@ -205,3 +205,29 @@ let randomnum = Array(10). fill(0)
 console.log(randomnum)
 
 randomnum = randomnum.map((val) => Math.floor(Math.random() * (11 - 5) + 5))
+
+console.log('turn 2 fan!')
+console.log('turn 2 fan!')
+console.log('turn 2 fan!')
+console.log('turn 2 fan!')
+console.log('turn 2 fan!')
+console.log('turn 2 fan!')
+
+var message = 'turn our fan'
+console.log(message)
+
+let p1 = 4;
+let p2 = 3;
+let result = p1 * p2;
+console.log(result)
+
+let x = 5 + 5 ;
+let y = "5" + 5 ;
+let z = "Hello" + 5; 
+let resul = x  + y  + z;
+console.log(resul)
+
+let e = 5;
+let d = 2;
+let s = e + d;
+console.log(s)
