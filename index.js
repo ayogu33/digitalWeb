@@ -231,3 +231,61 @@ let e = 5;
 let d = 2;
 let s = e + d;
 console.log(s)
+
+// if(what u are checking){
+//    block of code execute
+// }
+
+let num = 1
+
+if(num != 100){
+    console.log('it is greater than')
+    console.log('can u see that')
+} else{
+    console.log(' it is less than')
+    console.log('can u see that again')
+}
+
+if(num == 10){
+    console.log('it is equal')
+} else if(num > 10){
+    console.log('it is greater than')
+} else if(num < 10){
+    console.log('it is less than')
+}
+
+let myDate = new Date().getDay()
+let vary = 0
+switch (vary){
+    case 0:
+        console.log("sunday")
+        break
+    case 1:
+        console.log("Monday")
+        break
+    case 4:
+        console.log("Tuesday")
+        break   
+    case 3:
+        console.log("Wednesday")
+        break
+    case 4: 
+        console.log("Thursday")
+        break;
+    case 5:
+        console.log("Friday")
+        break;
+    case 6:
+        console.log("Saturday")
+    default:
+      console.log('Today is not a day')
+}
+
+let myarray = ['Camery', 'blue', 4, 2025, 35503, 'more', 'another']
+for (let I in myarray) {
+    console.log(myarray[I], I)
+}
+
+for (let I of myarray) {
+    console.log(I, myarray.indexOf(I))
+}
