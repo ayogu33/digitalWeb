@@ -282,10 +282,28 @@ switch (vary){
 }
 
 let myarray = ['Camery', 'blue', 4, 2025, 35503, 'more', 'another']
-for (let I in myarray) {
-    console.log(myarray[I], I)
-}
+// for (let I in myarray) {
+//     console.log(myarray[I], I)
+// }
 
-for (let I of myarray) {
-    console.log(I, myarray.indexOf(I))
-}
+console.log(myarray)
+console.log(myarray.length)
+// let arrayset = new set(myarray)
+// console.log(arrayset)
+// let unset = [arrayset]
+// console.log(unset.length)
+
+// for (let I of myarray) {
+//     console.log(I, myarray.indexOf(I))
+// }
+
+let myset = new Set()
+myset.add('Camery')
+myset.add('Blue')
+myset.add('Brouwn')
+myset.add('Camery')
+myset.add('Empty')
+myset.add('Bank')
+myset.add('Black')
+
+console.log(myset)
