@@ -3,15 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.js">
-    <title>Doc</title>
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+    <script defer src="index.html"></script>
 </head>
 <body>
-    <p>Please input a number between 5 and 10:</p>
+    <!-- <p>Please input a number between 5 and 10:</p>
 
 <input id="demo" type="text">
 <button type="button" onclick="myFunction()">Test Input</button>
 <p id="p01"></p>
- 
+  -->
+   <div class="container">
+    <form id="form" action="/">
+        <h1>Registration</h1>
+        <div class="input-control">
+            <label for="username">Username</label>
+            <input id="username" name="username" type="text">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="email">Email</label>
+            <input id="email" name="username" type="text">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password">
+            <div class="error"></div>
+        </div>
+        <div class="input-control">
+            <label for="password">Password again</label>
+            <input id="password2" name="password2" type="password2">
+            <div class="error"></div>
+        </div> 
+        <button type="submit">Sign up</button>
+    </form>
+
+   </div>
 </body>
 </html>
